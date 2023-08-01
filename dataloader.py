@@ -10,7 +10,7 @@ labels = ((255, 255, 255), (255, 0, 0), (255, 125, 0),(255, 255, 0), (0, 255, 0)
 
 
 
-def get_data(path=""):
+def get_data(path="dataset dentaire/sujet-2/obj_files"):
     labels = ([255,255,255], [255, 0, 0], [255, 125, 0], [255, 255, 0], [0, 255, 0], [0, 255, 255],
               [0, 0, 255], [255, 0, 255])
     row_data = PlyData.read(path)  # read ply file
